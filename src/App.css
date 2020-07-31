@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    --accent-color: #0B3157;
+    --second-color: #45B4B7;
+
+    background-color: gray;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+}

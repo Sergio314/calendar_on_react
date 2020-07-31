@@ -1,0 +1,43 @@
+.hiddenDay {
+ visibility: hidden;
+}
+
+.day {
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.selectedDay {
+  @extend .day;
+  @extend .day:hover;
+}
+
+.day:hover {
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 5px;
+}
+
+.currentDay {
+  position: relative;
+}
+
+.currentDay::before {
+  content: '.';
+
+  position: absolute;
+  top: -0.5rem;
+  left: 0;
+
+  color: red;
+  font-size: 20px;
+
+  text-align: center;
+  width: 100%;
+}
+
+.eventsContainer {
+  display: flex;
+  justify-content: center;
+}

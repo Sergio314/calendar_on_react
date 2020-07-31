@@ -1,0 +1,18 @@
+.dayEventsContainer{
+  margin-top: 1.5rem;
+
+}
+
+.day{
+  color: var(--accent-color);
+  opacity: 0.3;
+  font-weight: 800;
+  font-size: 14px;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.nearestEvent{
+  @extend .day;
+  opacity: 1;
+}

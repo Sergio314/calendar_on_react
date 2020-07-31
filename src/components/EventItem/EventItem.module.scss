@@ -1,0 +1,57 @@
+.eventItemContainer {
+  box-sizing: border-box;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--second-color);
+  margin: 10px 0;
+  padding: 12px 16px;
+  max-height: 30vh;
+}
+
+.eventNameAndTime {
+  display: flex;
+  justify-content: space-between;
+
+  font-weight: 500;
+  color: white;
+  opacity: 0.5;
+  overflow: hidden;
+}
+
+.overflowHide{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.eventName {
+  max-width: 85%;
+@extend .overflowHide;
+}
+
+.eventBody {
+  margin: 5px 0;
+  color: white;
+  font-weight: 700;
+  @extend .overflowHide;
+
+}
+
+.eventIsIn {
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+
+  p {
+    margin-left: 1.5rem;
+  }
+}
+
+.eventNotIn {
+  @extend .eventItemContainer;
+  background-color: var(--accent-color);
+  opacity: 0.5;
+}

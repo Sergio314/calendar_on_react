@@ -1,0 +1,15 @@
+.event{
+  flex: 1;
+  max-width: 12px;
+  height: 2px;
+  background-color: var(--second-color);
+}
+
+span + span{
+  margin-left: 3px;
+}
+
+.missedEvent{
+  @extend .event;
+  background-color: #A5BCB8;
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "date": "2020-03-29",
+    "events": [
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "12:00",
+        "isIn": false
+      },
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "17:00",
+        "isIn": true
+      }
+    ]
+  },
+  {
+    "date": "2020-03-02",
+    "events": [
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "15:00",
+        "isIn": false
+      }
+    ]
+  },
+  {
+    "date": "2020-04-02",
+    "events": [
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "12:00",
+        "isIn": false
+      },
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "17:00",
+        "isIn": true
+      }
+    ]
+  },
+  {
+    "date": "2020-05-03",
+    "events": [
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "12:00",
+        "isIn": false
+      },
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "17:00",
+        "isIn": true
+      }
+    ]
+  },
+  {
+    "date": "2020-03-15",
+    "events": [
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "17:00",
+        "isIn": true
+      }
+    ]
+  },
+  {
+    "date": "2020-03-05",
+    "events": [
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "12:00",
+        "isIn": false
+      },
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "17:00",
+        "isIn": true
+      }
+    ]
+  },
+  {
+    "date": "2020-03-14",
+    "events": [
+      {
+        "name": "Event with very-very-very long-long name",
+        "body": "Event with a really-really-really huge description",
+        "time": "12:00",
+        "isIn": false
+      },
+      {
+        "name": "event Name",
+        "body": "Body event",
+        "time": "17:00",
+        "isIn": true
+      }
+    ]
+  },
+  {
+    "date": "2020-03-07",
+    "events": [
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "12:00",
+        "isIn": false
+      },
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "22:00",
+        "isIn": true
+      }
+    ]
+  },
+  {
+    "date": "2020-03-08",
+    "events": [
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "12:00",
+        "isIn": false
+      },
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "17:00",
+        "isIn": true
+      }
+    ]
+  },
+  {
+    "date": "2020-04-06",
+    "events": [
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "12:00",
+        "isIn": false
+      },
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "17:00",
+        "isIn": true
+      }
+    ]
+  },
+  {
+    "date": "2020-04-05",
+    "events": [
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "12:00",
+        "isIn": false
+      },
+      {
+        "name": "Event Name",
+        "body": "Body event",
+        "time": "17:00",
+        "isIn": true
+      }
+    ]
+  }
+]
